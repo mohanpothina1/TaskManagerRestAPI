@@ -18,5 +18,5 @@ public interface TaskService {
 
     public void deleteTask(String id);
 
-    Task updateTaskFields(String id, Map<String, Object> updates);
+    Task updateTaskFields(java.lang.String id, java.util.Map<java.lang.String,java.lang.Object> updates);
 }
